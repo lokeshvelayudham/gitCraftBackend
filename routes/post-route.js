@@ -285,7 +285,7 @@ router.post("/get", function (req, res) {
       )
         .then((records) => {
           res.status(200).json({
-            message: "Posts fetched Successfully",
+            message: "Posts fetched Successfuljjly",
             data: records,
           });
         })
